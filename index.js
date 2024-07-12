@@ -1,6 +1,18 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  const palindromeWord = word.split('').reverse().join('');
+
+  return palindromeWord === word
 }
+console.log(isPalindrome('abba'))
+isPalindrome('racecar')
+isPalindrome('a')
+isPalindrome('robot')
+isPalindrome('ab')
+
+
+
+
+
 
 /* 
   Add your pseudocode here
